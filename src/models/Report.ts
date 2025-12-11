@@ -34,7 +34,7 @@ export const createReport = (
   createdBy: string
 ): Report => {
   return {
-    id: Math.random().toString(36).substr(2, 9),
+    id: Math.random().toString(36).substring(2, 11),
     title,
     type,
     content: {
